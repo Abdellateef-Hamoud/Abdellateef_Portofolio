@@ -9,6 +9,7 @@ html {
     --secondary-color:#20c997;
     --gray:#4a4a4d;
     --bg-primary:#ecf0f3;
+    --btn-secondary:#8c8d8e;
 }
 *{
     margin: 0;
@@ -48,9 +49,26 @@ a{
     border: none;
     cursor: pointer;
 }
+.btn-secondary {
+  background-color: var(--btn-secondary);
+  color: #ffffff;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
 .btn-primary:hover{
     background-color: #15a076;
 }
+
+.btn-secondary:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
 /* Header Start */
 
 #home{
@@ -433,7 +451,7 @@ textarea {
 .footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: #033B4A;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
