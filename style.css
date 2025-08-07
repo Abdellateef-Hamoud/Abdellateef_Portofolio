@@ -644,7 +644,15 @@ textarea {
         
     }
 
-  
+   #home .header-content .twobtns a{
+    display: flex;
+    margin-bottom:8px ;
+    width:180px
+
+   }
+   #home .header-content .twobtns a i{
+    margin-left: 20px;
+   }
 
     #home .header-content h1 {
         font-size: 40px;
